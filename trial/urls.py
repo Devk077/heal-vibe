@@ -18,6 +18,7 @@ from django.urls import path
 from aoo import views
 
 urlpatterns = [
+    path('', views.index),
     path('admin/', admin.site.urls),
     path("pdf//<int:appointment_id>", views.generate_pdf, name="view pdf"),
 ]
