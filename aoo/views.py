@@ -22,6 +22,9 @@ from .models import Appointments, Food, MealPlan, Patient
 
 from reportlab.platypus import TableStyle
 
+def index(request):
+    return HttpResponse("Hello, world. You're at the polls index.")
+
 def generate_meal_plan_table(meal_plan, table_style):
     # Define styles
     styles = getSampleStyleSheet()
