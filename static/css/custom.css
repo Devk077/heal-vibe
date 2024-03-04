@@ -1,0 +1,21 @@
+/* Adjusting spacing between fields */
+.field-box {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+/* Making text inputs smaller */
+input[type="text"] {
+    width: 150px; /* Adjust as needed */
+}
+
+/* Making select inputs smaller */
+select {
+    width: 150px; /* Adjust as needed */
+}
+
+/* Override default collapse behavior */
+.collapse.collapsed {
+    display: block !important;
+    overflow: hidden;
+    height: auto !important;
+}
